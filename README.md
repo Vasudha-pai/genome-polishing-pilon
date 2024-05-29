@@ -1,2 +1,9 @@
 # genome-polishing-pilon
 polishing the genome of the species Lactobacillus iners using pilon tool
+In genome assembly, pivotal for analyzing sequences from diverse populations, high-throughput technologies play a central role. They aid in identifying, monitoring, and distinguishing genome variants, leading to multiple assembly versions based on data production, error corrections, and improvements.
+
+The assembly process, involving data acquisition, assembly, and quality control, necessitates careful consideration of tools and metrics to ensure accuracy. Pre-processing raw data, assembling contigs into scaffolds, and quality assessment using metrics like N50 are crucial steps. Misassemblies can arise due to various factors like repetitive regions, sequencing errors, assembly algorithms, and data quality, highlighting the need for meticulous analysis and appropriate algorithm selection.
+
+For Lactobacillus iners, raw sequence data was acquired from the Sequence Read Archive and assessed using FastQC for quality analysis. SPAdes was utilized for sequence assembly, generating multiple contigs for further evaluation. The assembly was assessed using QUAST and ICARUS, revealing misassemblies that required correction. The polished genome was refined using Pilon, correcting 1,337,021 bases, including insertions concerning the reference file used for comparison. Comparative evaluation with the reference genome using tools like MAUVE helped align and rearrange contigs and gaps, elucidating the improvements made in the genome sequence.
+
+The study's methodology, encompassing data acquisition, assembly, error correction, and comparative assessment, underscores the importance of high-throughput technologies and sophisticated tools in advancing genome assembly and improving sequence accuracy.
