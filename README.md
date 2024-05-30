@@ -1,6 +1,6 @@
 # genome-polishing-pilon
-polishing the genome of the species Lactobacillus iners using pilon tool
-In genome assembly, pivotal for analyzing sequences from diverse populations, high-throughput technologies play a central role. They aid in identifying, monitoring, and distinguishing genome variants, leading to multiple assembly versions based on data production, error corrections, and improvements.
+This project involved polishing the genome of the species Lactobacillus iners using pilon tool.
+In genome assembly,the high-throughput technologies play a central role. They aid in identifying, monitoring, and distinguishing genome variants, leading to multiple assembly versions based on data production, error corrections, and improvements.
 
 The assembly process, involving data acquisition, assembly, and quality control, necessitates careful consideration of tools and metrics to ensure accuracy. Pre-processing raw data, assembling contigs into scaffolds, and quality assessment using metrics like N50 are crucial steps. Misassemblies can arise due to various factors like repetitive regions, sequencing errors, assembly algorithms, and data quality, highlighting the need for meticulous analysis and appropriate algorithm selection.
 
